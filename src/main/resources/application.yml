@@ -1,0 +1,12 @@
+spring:
+    main:
+      web-application-type: none
+    datasource:
+        driverClassName: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/myapp  
+        username: root
+        password: Admin
+    jpa:
+        hibernate.ddl-auto: update
+        generate-ddl: true
+        show-sql: true
